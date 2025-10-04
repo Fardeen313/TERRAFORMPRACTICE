@@ -1,0 +1,35 @@
+region       = "us-east-1"
+profile      = "android"
+vpc_cidr     = "10.0.0.0/24"
+cidr-pub-sub = "10.0.0.0/28"
+pub-sub-az   = "us-east-1b"
+cidr-pvt-sub = "10.0.0.16/28"
+pvt-sub-az   = "us-east-1a"
+
+Vpc     = "Custom"
+igw     = "Custom-igw"
+pub_sub = "Custom-pub"
+pvt_sub = "Custom-pvt"
+pub_rt  = "pub_rt"
+pvt_rt  = "pvt_rt"
+eip     = "Custom-eip"
+Ngw     = "Custom-ngw"
+s_cidr  = "0.0.0.0/0"
+domain  = "vpc"
+
+name_sg = "allow-common-ports"
+tag_sg = "cust_sg"
+desc_sg = "Allow SSH, HTTP, HTTPS, and MySQL"
+SSH = 22
+HTTP = 80
+MySQL = 3306
+HTTPS = 443
+protocol = "tcp"
+description_1 = "HTTP"
+description_2 = "SSH"
+description_3 = "HTTPS"
+description_4 = "MySql"
+description_5 = "Allow all outbound"
+egress_from_port = 0
+egress_to_port = 0
+egress_protocol = "-1"

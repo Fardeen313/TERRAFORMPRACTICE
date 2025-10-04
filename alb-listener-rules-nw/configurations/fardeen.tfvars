@@ -1,0 +1,8 @@
+image         = "ami-052064a798f08f0d3"
+key_name      = "kali"
+instance_tag  = "inst-01-pvt"
+instance_type = "t2.micro"
+subnet_name   = "Custom-pvt"
+vpc_id = "vpc-0557efa3763965b59"
+pub_sub_cidr = "10.0.0.32/28"
+pub_sub_tag = "subnet_1"
