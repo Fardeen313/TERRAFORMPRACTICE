@@ -8,7 +8,7 @@ sudo yum install -y yum-utils shadow-utils
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
 sudo yum -y install terraform
 
-# Install Java 17 Amazon Corretto
+# Install Java 21 Amazon Corretto
 sudo yum install -y java-21-amazon-corretto.x86_64
 
 
