@@ -9,7 +9,8 @@ sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinu
 sudo yum -y install terraform
 
 # Install Java 17 Amazon Corretto
-sudo yum install -y java-17-amazon-corretto.x86_64
+sudo yum install -y java-21-amazon-corretto.x86_64
+
 
 # Add Jenkins repository and install Jenkins
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
